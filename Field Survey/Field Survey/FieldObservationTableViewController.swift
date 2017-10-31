@@ -53,7 +53,7 @@ class FieldObservationTableViewController: UIViewController, UITableViewDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? FieldObservationDetailViewController,
             let row = fieldObservationsTableView.indexPathForSelectedRow?.row {
-            destination.fieldEvent = fieldEvents[] 
+            destination.fieldEvent = fieldEvents[row]
         }
     }
     /*

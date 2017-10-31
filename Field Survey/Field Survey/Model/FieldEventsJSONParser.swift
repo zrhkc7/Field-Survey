@@ -23,11 +23,12 @@ class FieldEventsJSONParser {
             if let observations = root["observations"] as? [Any] {
                 for observation in observations {
                     if let observation = observation as? [String: String] {
-                        if let field = observation["classification"],
+                        if let fieldString = observation["classification"],
                            let title = observation["title"],
                            let description = observation["description"],
                            let dateString = observation["date"],
-                           let date = dateFormatter.date(from: dateString) {
+                           let date = dateFormatter.date(from: dateString),
+                           let field = Field(rawValue: fieldString) {
                             
                             if let fieldEvent = FieldEvent(field: field, title: title, description: description, date: date) {
                                 

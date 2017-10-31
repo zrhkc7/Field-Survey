@@ -15,7 +15,7 @@
 		96D5918B1FA6A98600B45CD3 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5918A1FA6A98600B45CD3 /* Field_SurveyUITests.swift */; };
 		96D5919C1FA6B35300B45CD3 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 96D5919B1FA6B35300B45CD3 /* field_observations.json */; };
 		96D5919E1FA6C55C00B45CD3 /* field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5919D1FA6C55C00B45CD3 /* field.swift */; };
-		96D591A01FA6D12100B45CD3 /* FieldEvent.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5919F1FA6D12100B45CD3 /* FieldEvent.Swift */; };
+		96D591A01FA6D12100B45CD3 /* FieldEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5919F1FA6D12100B45CD3 /* FieldEvent.swift */; };
 		96D591A21FA813F200B45CD3 /* FieldEventsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D591A11FA813F200B45CD3 /* FieldEventsJSONParser.swift */; };
 		96D591A41FA81BAB00B45CD3 /* FieldEventsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D591A31FA81BAB00B45CD3 /* FieldEventsJSONLoader.swift */; };
 		96D591A61FA8231E00B45CD3 /* FieldObservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D591A51FA8231D00B45CD3 /* FieldObservationTableViewController.swift */; };
@@ -55,7 +55,7 @@
 		96D5918C1FA6A98600B45CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D5919B1FA6B35300B45CD3 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 		96D5919D1FA6C55C00B45CD3 /* field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field.swift; sourceTree = "<group>"; };
-		96D5919F1FA6D12100B45CD3 /* FieldEvent.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEvent.Swift; sourceTree = "<group>"; };
+		96D5919F1FA6D12100B45CD3 /* FieldEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEvent.swift; sourceTree = "<group>"; };
 		96D591A11FA813F200B45CD3 /* FieldEventsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEventsJSONParser.swift; sourceTree = "<group>"; };
 		96D591A31FA81BAB00B45CD3 /* FieldEventsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEventsJSONLoader.swift; sourceTree = "<group>"; };
 		96D591A51FA8231D00B45CD3 /* FieldObservationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationTableViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 			children = (
 				96D5919B1FA6B35300B45CD3 /* field_observations.json */,
 				96D5919D1FA6C55C00B45CD3 /* field.swift */,
-				96D5919F1FA6D12100B45CD3 /* FieldEvent.Swift */,
+				96D5919F1FA6D12100B45CD3 /* FieldEvent.swift */,
 				96D591A11FA813F200B45CD3 /* FieldEventsJSONParser.swift */,
 				96D591A31FA81BAB00B45CD3 /* FieldEventsJSONLoader.swift */,
 			);
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D591A01FA6D12100B45CD3 /* FieldEvent.Swift in Sources */,
+				96D591A01FA6D12100B45CD3 /* FieldEvent.swift in Sources */,
 				96D591AA1FA82E6700B45CD3 /* FieldEventTableViewCell.swift in Sources */,
 				96D5919E1FA6C55C00B45CD3 /* field.swift in Sources */,
 				96D591A41FA81BAB00B45CD3 /* FieldEventsJSONLoader.swift in Sources */,
