@@ -27,10 +27,9 @@ class FieldEventsJSONParser {
                            let title = observation["title"],
                            let description = observation["description"],
                            let dateString = observation["date"],
-                           let date = dateFormatter.date(from: dateString),
-                           let field = Field(rawValue: fieldString) {
+                           let date = dateFormatter.date(from: dateString) {
                             
-                            if let fieldEvent = FieldEvent(field: field, title: title, description: description, date: date) {
+                            if let fieldEvent = FieldEvent.init(fieldName: fieldString, title: title, description: description, date: date) {
                                 
                                 fieldEvents.append(fieldEvent)
                             }
